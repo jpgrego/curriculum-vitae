@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper,sans]{moderncv} % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % modern themes
 \moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -29,7 +29,7 @@
 \name{João}{Grego}
 \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
 \phone[mobile]{+351 915569263}                   % optional, remove / comment the line if not wanted
-\email{jpgrego@protonmail.com}                               % optional, remove / comment the line if not wanted
+\email{jpedro@grego.pt}                               % optional, remove / comment the line if not wanted
 \homepage{https://github.com/jpgrego}                         % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
@@ -52,7 +52,11 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\small{Aluno finalista do mestrado integrado de Engenharia de Computadores e Telemática, presentemente a desenvolver a dissertação de mestrado. Possui paixão por desenvolvimento de software e gestão de infraestrutura informática, com fortes competências técnicas e sociais para trabalhar em equipa.}
+\small{Trabalhador-estudante e aluno finalista do mestrado integrado de
+  Engenharia de Computadores e Telemática, presentemente a desenvolver a
+  dissertação de mestrado. Possui paixão por desenvolvimento de software e
+  gestão de infraestrutura informática e redes, com fortes competências técnicas
+  e sociais para trabalhar em equipa.}
 
 \section{Experiência profissional}
 
@@ -60,12 +64,45 @@
 
 \begin{itemize}
 
-\item{\cventry{Julho 2011}{Técnico de Redes}{Meo XL Party}{Braga}{}{\vspace{3pt}Integrou uma equipa responsável pela montagem e manutenção da rede interna do evento, tendo que garantir serviço e qualidade do sinal durante o decorrer deste.}}
+\item{\cventry{Novembro 2016 -- Presente}{Técnico Superior}{Universidade de
+      Aveiro}{Aveiro}{Área de Plataformas Abertas}{Faz parte de uma equipa
+      responsável pelo desenvolvimento, instalação e manutenção de plataformas
+      abertas a serem usadas por áreas diversas, como a gestão interna dos
+      serviços de informática e serviços disponíveis ao público
+      (\textit{Moodle}, \textit{DSpace}, \textit{OJS}, ...). Produziu diversos
+      scripts em bash, alguns dos quais podem ser consultados na página do
+      GitHub da Universidade de Aveiro
+      (\href{https://www.github.com/universidadeaveiro/moodle-moosh-scripts}
+      {universidadeaveiro/moodle-mosh-scripts}). Para além disso, mantém uma
+      máquina GNU/Linux de testes pertencente ao grupo. Antes de ingressar nesta
+      equipa, esteve responsável pelo desenvolvimento do \textit{backoffice} da
+      aplicação móvel relativa ao projecto ``IES + Perto'', melhorando serviços
+      já existentes e criando novos. Esteve também responsável pela melhoria de
+      funcionalidades e correcção de \textit{bugs} numa aplicação para o sistema
+      operativo móvel \textit{Android} para os vigilantes do \textit{campus}
+      universitário. Esta última atribuía rondas a serem desempenhadas,
+      \textit{check-in} de pontos-chaves, envio de fotografias de ocorrências a
+      registar e emissão de alertas. Elabora frequentemente documentação em
+      LaTeX e LibreOffice, descrevendo os passos para instalar certas
+      plataformas e instalação de ambientes de desenvolvimento.}}
 
 \vspace{6pt}
 
-\item{\cventry{Junho 2015 -- Presente}{Engenheiro de Software}{BEEVERYCREATIVE}{Aveiro}{}{Integra actualmente a equipa responsável pelo desenvolvimento de \textit{software} e \textit{firmware}} das impressoras da BEEVERYCREATIVE, empresa fabricante de impressoras 3D. Efectuou a manutenção de projectos existentes, melhorando significativamente a sua estabilidade e usabilidade, e desenvolveu projectos novos, em colaboração com entidades externas, como a Agência Espacial Europeia.}
+\item{\cventry{Abril 2015 -- Outubro 2016}{Engenheiro de
+      Software}{BEEVERYCREATIVE}{Aveiro}{}{Integrou a equipa responsável pelo
+      desenvolvimento de \textit{software} e \textit{firmware} das impressoras
+    da BEEVERYCREATIVE, empresa fabricante de impressoras 3D. Efectuou a
+    manutenção de projectos existentes, melhorando significativamente a sua
+    estabilidade e usabilidade, e desenvolveu projectos novos, em colaboração
+    com entidades externas, como a Agência Espacial Europeia.}}
 
+\vspace{6pt}
+
+\item{\cventry{Julho 2011}{Técnico de Redes}{Meo XL
+      Party}{Braga}{}{\vspace{3pt}Integrou uma equipa responsável pela montagem
+      e manutenção da rede interna do evento, tendo que garantir serviço e
+      qualidade do sinal durante o seu decorrer.}}
+  
 \end{itemize}
 
 \section{Educação}
@@ -78,47 +115,72 @@
 
 \begin{itemize}
 
-\item{\cventry{2008 -- }{Mestrado Integrado em Engenharia de Computadores e Telemática}{Universidade de Aveiro}{Aveiro}{}{}}
+\item{\cventry{2008 -- }{Mestrado Integrado em Engenharia de Computadores e
+      Telemática}{Universidade de Aveiro}{Aveiro}{}{}}
 
 \end{itemize}
 
 \vspace{2pt}
 
-\subsection{Projectos}
+\subsection{Projetos}
 
 \vspace{5pt}
 
 \begin{itemize}
 
-\item{\textbf{Dissertação de mestrado (em progresso): } \textit{'Integrated monitoring in Android Devices'}
+\item{\textbf{Dissertação de mestrado (em progresso): } \textit{'Integrated
+      monitoring in Android Devices'}
 
 \vspace{3pt}
 
-\small{Encontra-se de momento na fase de concepção e elaboração de um sistema de monitorização para o sistema operativo de dispositivos móveis \textit{Android}. Este sistema consiste numa aplicação com o objectivo de analisar a actividade do dispositivo em que se encontra instalado para, posteriormente, tentar detectar eventos que se afastem demasiado daquilo que é estabelecido ser o comportamento normal do dispositivo, o \textit{status quo} de operação do dispositivo. Este trabalho é, assim, uma tentativa de apresentar uma alternativa na detecção de \textit{malware} em dispositivos móveis. Escreveu um \textit{paper} sobre este trabalho para a \textit{ConfTele}, conferência que decorreu em Setembro de 2015, organizado pelo Instituto de Telecomunicações, da Universidade de Aveiro.}}
+\small{Encontra-se de momento na fase de conceção e elaboração de um sistema de
+  monitorização para o sistema operativo de dispositivos móveis
+  \textit{Android}. Este sistema consiste numa aplicação que tem como objetivo
+  analisar a atividade do dispositivo em que se encontra instalado para,
+  posteriormente, tentar detetar eventos que se afastem demasiado daquilo que é
+  estabelecido ser o comportamento normal do dispositivo, o seu \textit{status
+    quo} de operação. Este trabalho é, assim, uma tentativa de apresentar uma
+  alternativa na deteção de \textit{malware} em dispositivos móveis. Escreveu um
+  \textit{paper} sobre este trabalho para a \textit{ConfTele}, conferência que
+  decorreu em setembro de 2015, organizado pelo Instituto de Telecomunicações,
+  na Universidade de Aveiro.}
 
-\newpage
-
-\item{\textbf{Projecto de 3º ano: } \textit{'Attendance control'}
+\item{\textbf{Projeto de 3º ano: } \textit{'Attendance control'}
 
 \vspace{3pt}
 
-\small{Este projecto tinha como objectivo desenvolver um método eficiente para registar automaticamente a presença de estudantes em aulas, exames e outras actividades académicas relacionadas. No final, o projecto foi apresentado e o seu grupo reuniu-se com os Serviços de Tecnologias de Informação e Comunicação da Universidade de Aveiro de maneira a implementar o sistema oficialmente.}}
+\small{Este projeto tinha como objetivo desenvolver um método eficiente para
+  registar automaticamente a presença de estudantes em aulas, exames e outras
+  atividades académicas relacionadas. No final, o projeto foi apresentado e o
+  seu grupo reuniu-se com os Serviços de Tecnologias de Informação e Comunicação
+  da Universidade de Aveiro, de maneira a implementar oficialmente o sistema.}}
 
 \vspace{6pt}
 
-\item{\textbf{Projecto da cadeira de Engenharia de Software: }\textit{'Cambada in the Web'}
+\item{\textbf{Projeto da cadeira de Engenharia de Software: }\textit{'Cambada
+      in the Web'}}
 
 \vspace{3pt}
 
-\small{Integrou uma equipa no âmbito da cadeira de Engenharia de Software, em colaboração com o CAMBADA (Cooperative Autonomous Mobile roBots with Advanced Distributed Architecture), a famosa equipa de futebol robótico da Universidade de Aveiro, de maneira a desenvolver uma plataforma web para observação de estatísticas e observação e gravação de jogos a decorrer.}}
+\small{Integrou uma equipa no âmbito da cadeira de Engenharia de
+  \textit{Software}, em colaboração com o CAMBADA (\textit{Cooperative
+    Autonomous Mobile roBots with Advanced Distributed Architecture}), a famosa
+  equipa de futebol robótico da Universidade de Aveiro, de maneira a desenvolver
+  uma plataforma \textit{web} para observação de estatísticas e visualização e
+  gravação de jogos a decorrer.}}
 
 \vspace{6pt}
 
-\item{\textbf{Projecto da cadeira de Engenharia de Serviços: }\textit{'eLock'}
+\item{\textbf{Projeto da cadeira de Engenharia de Serviços: }\textit{'eLock'}}
 
 \vspace{3pt}
 
-\small{O eLock foi desenvolvido durante a frequência da cadeira de Engenharia de Serviços. Juntamente com dois colegas, desenvolveu um sistema de fechadura electrónica seguro, eficiente e customizável, que permitisse a um utilizador abrir a fechadura com o seu dispositivo móvel, permitir a outros utilizadores abrirem a fechadura, e até especificar o horário a que um utilizador podia abrir determinada fechadura.}}
+\small{O \textit{eLock} foi desenvolvido durante a frequência da cadeira de
+  Engenharia de Serviços. Desenvolveu um sistema de fechadura electrónica
+  seguro, eficiente e customizável que permitisse a um utilizador abrir a
+  fechadura com o seu dispositivo móvel, autorizasse outros utilizadores a
+  abrirem a fechadura e que especificasse o horário a que um utilizador poderia
+  abrir determinada fechadura.}
 
 \end{itemize}
 
@@ -127,11 +189,18 @@
 \vspace{6pt}
 
 \begin{itemize}
-\item{\cventry{Maio 2012}{Participante}{Micro-rato}{Universidade de Aveiro}{}{\vspace{3pt}Participou, juntamente com um colega, nesta competição, que consiste em programar um robot para encontrar o caminho que deve percorrer para chegar ao final de um labirinto.}}
+\item{\cventry{Maio 2012}{Participante}{Micro-rato}{Universidade de
+      Aveiro}{}{\vspace{3pt}Participou nesta competição, que consiste em
+      programar um \textit{robot} para encontrar o caminho que deve percorrer
+      para chegar ao final de um labirinto.}}
 
 \vspace{6pt}
 
-\item{\cventry{2013 -- 2014}{Membro fundador}{Núcleo de Robótica Diversificada}{Universidade de Aveiro}{}{\vspace{3pt}Fundou e desenvolveu, juntamente com alguns colegas, o NeRD (Núcleo de robótica diversificada}, participando na organização de actividades relacionadas com a robótica, desde a concepção de um robot até à programação de microcontroladores.}
+\item{\cventry{2013 -- 2014}{Membro fundador}{Núcleo de Robótica
+      Diversificada}{Universidade de Aveiro}{}{\vspace{3pt}Fundou e desenvolveu
+      o NeRD (Núcleo de robótica diversificada), participando na organização de
+      atividades relacionadas com a robótica, desde a concepção de um
+      \textit{robot} até à programação de microcontroladores.}}
 \end{itemize}
 
 \section{Competências}
@@ -140,15 +209,20 @@
 
 \begin{itemize}
 
-\item \textbf{Programming Languages:} Java, C, C++, Python, SQL, Bash, TeX \\ Também já utilizou Assembly, VHDL, Matlab/Octave, C\#.
+\item \textbf{Programming Languages:} Java, C, C++, Python, SQL, Bash, LaTeX, PHP. \\
+  Também já fez trabalhos em MIPS Assembly, VHDL, Matlab/Octave, C\#.
 
 \vspace{6pt}
 
-\item \textbf{Tecnologias utilizadas:} Qt, OpenGL, Android, Git, Subversion, Java Swing.
+\item \textbf{Tecnologias utilizadas:} Git, Subversion, Android SDK, Qt, PyQT,
+  Kivy, Java Swing, OpenGL.
 
 \vspace{6pt}
 
-\item \textbf{Outros: } Elevado nível de fluência na língua inglesa (o \textit{paper} escrito para a \textit{ConfTele} foi escrito em inglês; a dissertação também está a ser escrita nesta língua).
+\item \textbf{Outros: } Conhecimento e aptidão para expressões regulares,
+  utilizadas principalmente em scripts bash. Elevado nível de fluência na língua
+  inglesa (o \textit{paper} escrito para a \textit{ConfTele} foi escrito em
+  inglês; a dissertação também está a ser escrita nesta língua).
 
 \end{itemize}
 
@@ -158,11 +232,19 @@
 
 \begin{itemize}
 
-\item{Possui paixão pelo mundo do sistema operativo GNU/Linux, e do software livre em geral. Planeia ser um membro activo no desenvolvimento e manutenção de projectos de software livre assim que acabar a dissertação.}
+\item{Possui um grande interesse pelo sistema operativo GNU/Linux, utlizando a
+    distribuição \textit{Gentoo} no seu computador pessoal e \textit{Debian} nos
+    seus computadores de trabalho.  Consequentemente, tem também grande
+    afinidade pelo \textit{software} livre em geral e planeia ser um membro
+    ativo no desenvolvimento e manutenção de projectos de \textit{software}
+    livre.}
 
 \vspace{6pt}
 
-\item{Nos tempos livres, para além de estudar sobre a área, preocupa-se em alargar horizontes, estudando línguas (Alemão) e filosofia. Frequenta assiduamente o ginásio.}
+\item{Nos tempos livres, para além de programar, estudar sobre a área e
+    acompanhar os últimos desenvolvimentos, preocupa-se em alargar horizontes,
+    estudando um pouco de filosofia e política. Para manter o corpo em forma,
+    frequenta assiduamente o ginásio.}
 
 \end{itemize}
 
@@ -189,3 +271,8 @@
 
 
 %% end of file `template.tex'.
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
